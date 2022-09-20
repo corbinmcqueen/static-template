@@ -48,7 +48,7 @@ void draw() {
          //fill(random(int(piDig),sums/int(piDig)),random(int(piDig),sums/int(piDig)),1000);
          // Draw the letter to the screen
          //stroke(random(0,255-random(0,255)));         
-         //rect(x,y,int(piDig),int(piDig));
+         rect(x,y,0.9+int(piDig),0.9+int(piDig));
          fill(random(1,255),random(1,255),random(1,255));        
          text(piDig, x, y);
          
