@@ -82,7 +82,7 @@ ellipse(mx,my,10,10);
    //text(counter,0-15,-15);
    //stroke(255);
    //line(-15,mouseY,width,mouseY);
-   if (mouseClicked == true) {
+   if (mousePressed== true) {
       saveFrame("line-######.png");
       save("/data/pi.png");
    }
